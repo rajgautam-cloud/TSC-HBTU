@@ -38,6 +38,55 @@
 html {
   font-size: 10px;
 }
+/* navbar styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+}
+.navbar.sticky {
+  padding: 15px 0;
+  background: rgba(220, 20, 60, 0.541);
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.navbar .logo a span {
+  color: crimson;
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: crimson;
+}
+.navbar.sticky .menu li a:hover {
+  color: rgb(229, 255, 0);
+}
+
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 9.375px;
@@ -885,7 +934,7 @@ input::-moz-focus-inner {
 }
 
 .line-height-2 {
-  line-height: 1.2!important;
+  line-height: 1.2 !important;
 }
 
 .ss-error {
@@ -3180,11 +3229,10 @@ footer h4.h05::after {
   clear: both;
 }
 
-.content-magazine{
-  color:#F2F2F280;
-  padding:30px !important;
+.content-magazine {
+  color: #f2f2f280;
+  padding: 30px !important;
 }
-
 
 .bricks-wrapper .item-wrap .item-text .magazine-title {
   color: #ffffff;
@@ -3192,8 +3240,8 @@ footer h4.h05::after {
   line-height: 1.364;
 }
 
-.ensight-button{
-  color:white !important;
+.ensight-button {
+  color: white !important;
   border: 3px solid white !important;
 }
 
@@ -3217,19 +3265,18 @@ footer h4.h05::after {
     font-size: 2rem;
     line-height: 1.5;
   }
-  .content-magazine{
-    padding:10px !important;
+  .content-magazine {
+    padding: 10px !important;
   }
 
   .ensight-button {
-    margin:auto !important;
+    margin: auto !important;
   }
 }
 @media only screen and (min-width: 768px) {
   .ensight {
-    height:500px;
-    position:relative;
-    left:20%;
+    height: 500px;
+    position: relative;
+    left: 20%;
   }
 }
-
