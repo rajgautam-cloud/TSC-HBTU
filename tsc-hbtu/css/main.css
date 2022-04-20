@@ -1881,7 +1881,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   min-height: 696px;
   text-align: center;
 }
@@ -2122,7 +2122,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
  * ------------------------------------------------------------------- */
 #portfolio {
   background: #ffffff;
-  min-height: 800px;
+  min-height: 550px;
   position: relative;
   padding: 0;
 }
@@ -2386,7 +2386,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #testimonials {
-  background: #ffffff;
+  background:#f2f2f2;
   padding: 12rem 0 7.8rem;
   text-align: center;
 }

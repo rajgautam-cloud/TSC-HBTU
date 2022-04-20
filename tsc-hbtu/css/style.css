@@ -1,0 +1,162 @@
+.clients {
+  background: #f2f2f2;
+  padding: 15px 0;
+  text-align: center;
+}
+.clients img {
+  width: 100%;
+  filter: grayscale(100);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  .clients img {
+    width: 40%;
+  }
+}
+.sponsers {
+  font-family: montserrat-bold, sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.667;
+  color: rgb(7, 97, 125);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  position: relative;
+}
+
+.why-us {
+  padding: 10px;
+
+  background-color: #f2f2f2;
+}
+.why-us .box {
+  padding: 50px 30px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+.why-us .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #151515;
+}
+.why-us .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: #191919;
+}
+.why-us .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.why-us .box:hover {
+  background: #151515;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
+  color: #fff;
+}
+#why-us h1 {
+  margin-top: 10px;
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  position: relative;
+  margin-bottom: 4.2rem;
+}
+
+.intro-wrap {
+  /* padding: 15rem 0 21rem; */
+  background: #f2f2f2;
+}
+.service{
+  padding: 15px;
+}
+.service .icon-box {
+  
+  text-align: center;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.service .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background:rgba(242, 242, 242, 0.5);
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+.service .icon-box .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+.service .icon-box .icon::before {
+  position: absolute;
+  content: "";
+  left: -8px;
+  top: -8px;
+  height: 100%;
+  width: 100%;
+  background: #fce5e5;
+  transition: all 0.3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+.service .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.service .icon-box h4 a {
+  color: #191919;
+}
+.service .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.service .icon-box:hover {
+  background: #fce5e5;
+  border-color: #fce5e5;
+  padding: 70px 20px 90px 20px;
+}
+.service .icon-box:hover .icon {
+  background: #fff;
+}
+.service .icon-box:hover .icon i {
+  color:rgba(242, 242, 242, 0.5);
+}
+.service .icon-box:hover .icon::before {
+  background: rgba(242, 242, 242, 0.5);
+}
+.service .icon-box:hover h4 a, .services .icon-box:hover p {
+  color: #fff;
+}
+
+.service h1{
+color:   rgba(242, 242, 242, 0.5);
+}
+.workshop_heading{
+  font-size: 4rem;
+  margin-top: 7px;
+}
